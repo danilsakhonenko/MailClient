@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pks.mailclient.controllers.StartController">
+   <children>
+      <Label alignment="CENTER" layoutY="21.0" text="Запуск сессиии" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="21.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email_field" layoutX="210.0" layoutY="95.0" prefWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pass_field" layoutX="210.0" layoutY="146.0" prefWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="91.0" layoutY="100.0" text="Почтовый адрес:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="151.0" text="Пароль:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="start_btn" layoutX="200.0" layoutY="209.0" mnemonicParsing="false" onAction="#startClient" text="Запустить" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="134.0" layoutY="202.0" text="Протокол:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="protocol_cb" layoutX="210.0" layoutY="200.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="165.0" layoutY="256.0" text="Порт:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="port_field" layoutX="210.0" layoutY="251.0" prefWidth="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

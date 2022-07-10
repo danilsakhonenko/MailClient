@@ -1,0 +1,13 @@
+pks\mailclient\controllers\StartController.class
+pks\mailclient\controllers\ReadMessageController.class
+pks\mailclient\sessions\SmtpSession.class
+pks\mailclient\sessions\SmtpSession$1.class
+pks\mailclient\controllers\WriteMessageController.class
+pks\mailclient\sessions\MailReadSession$1.class
+pks\mailclient\MainClass.class
+pks\mailclient\sessions\MailReadSession.class
+pks\mailclient\sessions\Pop3Session.class
+pks\mailclient\controllers\MailBoxController.class
+pks\mailclient\DialogMessage.class
+pks\mailclient\sessions\ImapSession.class
+pks\mailclient\App.class
